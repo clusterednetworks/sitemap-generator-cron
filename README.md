@@ -1,7 +1,8 @@
 # sitemap-generator-cron
 A script to be run as a cronjob using sitemap-generator-cli 
 <pre># bash
-# This script requires npm and nodejs to be installed
+# This script requires nodejs and npm to be installed
+# install sitemap-generator-cli
 # https://github.com/lgraubner/sitemap-generator-cli
 # example
 # sitemap-generator -f /var/www/clusterednetworks2/sitemap.xml -g weekly -l https://#www.clusterednetworks.com
