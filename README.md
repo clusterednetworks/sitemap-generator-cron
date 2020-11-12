@@ -1,6 +1,6 @@
 # sitemap-generator-cron
 A script to be run as a cronjob using sitemap-generator-cli 
-# bash
+<code># bash
 # This script requires npm and nodejs to be installed
 # https://github.com/lgraubner/sitemap-generator-cli
 # example
@@ -10,3 +10,4 @@ A script to be run as a cronjob using sitemap-generator-cli
 /usr/local/bin/sitemap-generator -f /var/www/clusterednetworks2/sitemap.xml -g weekly -l https://www.clusterednetworks.com
 /usr/local/bin/sitemap-generator -f /var/www/ronbillings.com/sitemap.xml -g weekly -l https://www.ronbillings.com
 # EOF
+</code>
